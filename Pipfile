@@ -8,6 +8,8 @@ django = "==3.2.9"
 python-decouple = "*"
 djangorestframework = "*"
 psycopg2-binary = "*"
+dj-database-url = "*"
+drf-yasg = "*"
 
 [dev-packages]
 flake8 = "*"
