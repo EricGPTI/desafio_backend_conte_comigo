@@ -1,0 +1,10 @@
+version: '3.9'
+services:
+  db:
+    build: .
+    ports:
+      - 5432:5432
+    container_name: db_zaratrustra
+    volumes:
+      - ./data/postgres:/var/lib/postgresql/data
+    restart: always
